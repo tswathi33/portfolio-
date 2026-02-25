@@ -1,0 +1,83 @@
+﻿
+> portfolio-swathi@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 10 modules transformed.
+node.exe : [31mΓ£ù[39m 
+Build failed in 409ms
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: ([31m  
+  Γ£ù[39m Build failed i   
+ n 409ms:String) [], Rem    
+oteException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+[31merror during build:
+[31m[vite:esbuild] 
+Transform failed with 1 
+error:
+C:/Users/User/OneDrive/Portf
+olio/src/components/Backgrou
+nd3D.jsx:26:17: ERROR: 
+Expected ")" but found 
+"group"[31m
+file: [36mC:/Users/User/One
+Drive/Portfolio/src/componen
+ts/Background3D.jsx:26:17[3
+1m
+[33m
+[33mExpected ")" but found 
+"group"[33m
+24 |                  />
+25 |              </Points>
+26 |          </group> 
+group >
+   |                   ^
+27 |    );
+28 |  }
+[31m
+    at failureErrorWithLog (
+C:\Users\User\OneDrive\Portf
+olio\node_modules\esbuild\li
+b\main.js:1467:15)
+    at C:\Users\User\OneDriv
+e\Portfolio\node_modules\esb
+uild\lib\main.js:736:50
+    at responseCallbacks.<co
+mputed> (C:\Users\User\OneDr
+ive\Portfolio\node_modules\e
+sbuild\lib\main.js:603:9)
+    at handleIncomingPacket 
+(C:\Users\User\OneDrive\Port
+folio\node_modules\esbuild\l
+ib\main.js:658:12)
+    at 
+Socket.readFromStdout (C:\Us
+ers\User\OneDrive\Portfolio\
+node_modules\esbuild\lib\mai
+n.js:581:7)
+    at Socket.emit 
+(node:events:508:20)
+    at addChunk (node:intern
+al/streams/readable:564:12)
+    at readableAddChunkPushB
+yteMode (node:internal/strea
+ms/readable:515:3)
+    at Readable.push (node:i
+nternal/streams/readable:395
+:5)
+    at Pipe.onStreamRead (no
+de:internal/stream_base_comm
+ons:189:23)[39m
+

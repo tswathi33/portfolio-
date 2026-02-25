@@ -1,0 +1,19 @@
+﻿
+C:\Users\User\OneDrive\Portfolio\src\components\Background3D.jsx
+  16:16  error  Unknown property 'rotation' found   react/no-unknown-property
+  50:24  error  Unknown property 'attach' found     react/no-unknown-property
+  50:44  error  Unknown property 'args' found       react/no-unknown-property
+  51:31  error  Unknown property 'intensity' found  react/no-unknown-property
+  52:29  error  Unknown property 'position' found   react/no-unknown-property
+  52:53  error  Unknown property 'intensity' found  react/no-unknown-property
+
+C:\Users\User\OneDrive\Portfolio\src\components\Contact.jsx
+  21:32   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  24:101  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\User\OneDrive\Portfolio\src\components\Navigation.jsx
+  1:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 9 problems (9 errors, 0 warnings)
+
+
